@@ -14,6 +14,7 @@ To write a program to predict the profit of a city using the linear regression m
 4.Repeat Until Convergence – Iterate until the cost function stabilizes or a maximum number of iterations is reached 
 
 ## Program:
+```python
 /*
 Program to implement the linear regression using gradient descent.
 Developed by: NITHISH S
@@ -55,6 +56,11 @@ prediction= prediction.reshape(-1,1)
 pre = scaler.inverse_transform(prediction)
 print(prediction)
 print(f"Predicted value: {pre}")
+
+
+
+
+
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/599f5870-75af-431d-b84f-7aba3eb781c3)
