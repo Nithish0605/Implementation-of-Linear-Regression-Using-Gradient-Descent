@@ -8,10 +8,10 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Initialize Parameters – Set initial values for slope m and intercept 𝑏 and choose a learning rate 𝛼
-2.Compute Cost Function – Calculate the Mean Squared Error (MSE) to measure model performance.
-3.pdate Parameters Using Gradient Descent – Compute gradients and update m and b using the learning rate.
-4.Repeat Until Convergence – Iterate until the cost function stabilizes or a maximum number of iterations is reached 
+1. Initialize Parameters – Set initial values for slope m and intercept 𝑏 and choose a learning rate 𝛼
+2. Compute Cost Function – Calculate the Mean Squared Error (MSE) to measure model performance.
+3. pdate Parameters Using Gradient Descent – Compute gradients and update m and b using the learning rate.
+4. Repeat Until Convergence – Iterate until the cost function stabilizes or a maximum number of iterations is reached 
 
 ## Program:
 ```python
@@ -56,6 +56,7 @@ prediction= prediction.reshape(-1,1)
 pre = scaler.inverse_transform(prediction)
 print(prediction)
 print(f"Predicted value: {pre}")
+````
 
 
 
